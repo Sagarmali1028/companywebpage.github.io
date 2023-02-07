@@ -1,0 +1,73 @@
+<style>
+   * {
+      margin: 0;
+      padding: 0;
+   }
+
+   h2 {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: deeppink;
+      height: 65px;
+   }
+
+   label {
+      color: rgb(255, 253, 253);
+      
+   }
+
+   body {
+      background-image: url("back.jpg");
+   }
+   .container {
+      position: relative;
+      left: 75vh;
+
+   }
+   input#name {
+      border-radius: 5px;
+      border-color: black;
+      width: 200px;
+   }
+
+   input#submit {
+      width: 100;
+      height: 30;
+      font-weight: 600;
+      border-radius: 5px;
+      border-color: black;
+      cursor: pointer;
+      background-color: orangered;
+      position: relative;
+  left: 25vh;
+  top: 7vh;
+
+   }
+</style>
+
+<body>
+   <h2> LEAVE LETTER</h2>
+   <br><br>
+   <div class="container" id="container">   
+   <label>ENTER FULL NAME : </label>
+   <input type="text" id="name" name="name" placeholder="FULL NAME">
+   <br><br>
+   <label>ENTER YOUR WORK-TYPE : </label>
+   <input type="text" id="name" name="name" placeholder="worktype">
+   <br><br>
+   <label>DAYS FOR LEAVE : </label>
+   <label id="name" name="name"> FROM </label>
+   <input type="date" id="number" name="name" placeholder="from">
+   <label id="name">TO </label>
+   <input type="date" id="number" name="name" placeholder="TO">
+   <br><br>
+   <label>REASON : </label>
+   <input type="text" id="name" name="name" placeholder="reason">
+   <br><br>
+
+   <input type="submit" name="submit" id="SUBMIT" value="SUBMIT">
+</div>
+
+</body>

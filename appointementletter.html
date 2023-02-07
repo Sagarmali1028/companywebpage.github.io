@@ -1,0 +1,78 @@
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    h2 {
+        background-color: aqua;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+   div#container.container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   }
+   input#name {
+    left: 45vh;
+    top: 56vh;
+    border-radius: 5px;
+    color: black;
+    width: 34vh;
+   }
+   input#number {
+    border-radius: 5px;
+    color: black;
+    width: 34vh;
+   }
+   input#submit {
+    position: relative;
+    left: 18vh;
+    width: 23vh;
+    height: 30px;
+    top: 8vh;
+   }
+   body {
+       background-image: url("back.jpg");
+   }
+   
+</style>
+
+
+<body>
+    <h2> APPOINTEMENT FORM </h2>
+    <div class="container" id="container" > <!----form start-->
+        <form id="registration" method="post">
+            <br> <br>
+            <label>ENTER FIRST NAME : </label>
+            <input type="text" id="name" name="first name" placeholder="first name">
+            <br> <br>
+            <label>ENTER LAST NAME : </label>
+            <input type="text" id="name" name="last name" placeholder="last name">
+            <br> <br>
+            <label>ENTER YOUR EMAIL : </label>
+            <input type="email" name="email" id="name" placeholder="enter email">
+            <br> <br>
+            <label> ENTER CONTACT NUMBER : </labeL>
+            <input type="number" name="name" id="number" placeholder="contact number">
+            <br><br>
+            <label>TIME AND DATE : </label>
+            <input type="datetime" id="number" name="datetime" placeholder="DD/MM/YY">
+            <br><br>
+            <label>GENDER : </label>
+            <input type="radio" name="GENDER" id="male">
+            <span id="male">MALE</span>
+            <input type="radio" name="GENDER" id="female">
+            <span id="female">FEMALE </span>
+            <br><br>
+
+            <input type="submit" name="submit" id="submit" value="SUBMIT">
+
+
+        </form>
+    </div>
+</body>
